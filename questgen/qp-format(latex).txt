@@ -1,113 +1,96 @@
-\documentclass[12pt, a4paper]{exam}
+\documentclass[12pt, a4paper]{article}
 \usepackage{graphicx}
-\usepackage[left=0.8in, top=0.7in, total={6.2in,8in}]{geometry}
+\usepackage[left=0.8in, right=0.8in, top=0.7in, bottom=0.7in]{geometry}
 \usepackage[normalem]{ulem}
 \renewcommand\ULthickness{1.0pt}
 \setlength\ULdepth{1.3ex}
+\usepackage{enumitem}
+\setlist{nosep} % Reduce space in lists
+\pagestyle{empty} % No page numbers
+\usepackage{amsmath}
+\usepackage{tabularx} % Tabularx for flexible columns
+
+% Increase vertical space in table cells
+\renewcommand{\arraystretch}{1.5} % Adjust this value to increase/decrease space
 
 \begin{document}
 
-% Add logo centered at the top
-% \begin{center}
-% 	\includegraphics[width=1.5in]{ibaccnf.png} % Adjust the width of the logo
-% 	\vspace{0.1in} % Adjust spacing between logo and text
-% \end{center}
+% Header
+\noindent
+\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r@{}}
+\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: A30536} \\
+\end{tabular*}
 
-% Center the main text
+% Title and Details
 \begin{center}
-	{\large CMR COLLEGE OF ENGINEERING \& TECHNOLOGY \par}
-	{\small (UGC AUTONOMOUS) \par}
-	{\large B.Tech I Semester Supplementary Examinations September-2023 \par}
-	{\large \textbf{ENGINEERING PHYSICS} \par}
-	{\small \textbf{Course Code: A30008} \par}
-	{Date: 07.09.2023 AN \par}
-	{Max.Marks: 70}
+\textbf{CMR COLLEGE OF ENGINEERING \& TECHNOLOGY} \\
+\textbf{(UGC AUTONOMOUS)} \\
+\textbf{B.Tech VI Semester Mid Examinations May-2023} \\
+\textbf{(Honors Programme in CSE)} \\
+\textbf{Course Name: RESEARCH METHODOLOGIES} \\
+\textbf{Date: 17.05.2023 AN} \hfill \textbf{Time: 1.5 hours} \hfill \textbf{Max.Marks: 25M} \\
+\vspace{-0.3cm}
+\noindent\rule{\textwidth}{0.4pt} % Horizontal line
+\end{center}
+\vspace{-0.5cm}
+
+% Note
+\noindent
+\begin{center}
+\textbf{(Note: Assume suitable data if necessary)}
+\end{center} 
+\vspace{-0.4cm}
+
+% PART-A Header
+\begin{center}
+\textbf{PART-A (5M)} \\
+\textbf{Answer all FIVE questions. Each question carries ONE mark.} \\
 \end{center}
 
-\vspace{0.2in}
-\noindent
-\uline{Time: 3 hours \hfill R18 \hfill Max marks: 70}
-\par
-\vspace{0.15in}
-\noindent
-\centering
-{\small \bfseries Attempt all questions}
+% PART-A Questions
+\begin{tabularx}{\textwidth}{|c|X|r|}
+\hline
+\textbf{No.} & \textbf{Question} & \textbf{Marks} \\
+\hline
+1. & Define literature review. & 1 M \\
+\hline
+2. & List different types of research approaches. & 1 M \\
+\hline
+3. & Explain the importance of plagiarism in research. & 1 M \\
+\hline
+4. & Describe the steps involved in a literature review. & 1 M \\
+\hline
+5. & What is the role of citations in a research report? & 1 M \\
+\hline
+\end{tabularx}
 
-\vspace{0.5in}
-\noindent
-\centering
-{\large \bfseries PART-A}
-\par
-\vspace{0.2in}
-\noindent
-\centering
-{\small Answer all TEN questions (Compulsory). Each question carries TWO marks.}
-\par
-\begin{enumerate}
-	\item What are damped oscillations? Give examples.
-	\item Distinguish between free and forced oscillations.
-	\item Explain the principle of superposition of waves.
-	\item Explain the differences between Fresnel and Fraunhofer diffraction.
-	\item Explain the characteristics of a laser beam.
-	\item What is meant by attenuation in optical fiber?
-	\item Define: a) Electric dipole, b) Dielectric moment, c) Polarizability, and d) Dipole moment.
-	\item Compare the properties of soft and hard magnetic materials.
-	\item Discuss how the physical and chemical properties of nano-particles vary with their size.
-	\item What are the classifications of nanomaterials?
-\end{enumerate}
+\vspace{0.5cm}
 
-\vspace{0.5in}
-\noindent
-\centering
-{\large \bfseries PART-B}
-\par
-\vspace{0.2in}
-\noindent
-\centering
-{\small Answer the following. Each question carries TEN Marks.}
-\par
-\begin{enumerate}
-	\setcounter{enumi}{10} % Continue numbering from 11
-	\item \textbf{(a)} What is a transverse wave? Obtain the equation for the velocity of a transverse wave in a stretched string. Write the laws of transverse vibrations of the strings. \\
-	\vspace{-0.5cm}
-	\begin{center}
-		\textbf{or}
-	\end{center}
-	\vspace{-0.5cm}
-	\textbf{(b)} What are forced oscillations? Obtain an expression for the amplitude of a forced oscillator.
-	\item \textbf{(a)} Apply the concept of Interference to explain the Newton’s rings experiment and deduce the expression for the radius of curvature of a Plano convex lens. \\
-	\vspace{-0.5cm}
-	\begin{center}
-		\textbf{or}
-	\end{center}
-	\vspace{-0.5cm}
-	\textbf{(b)} Give the theory of Fraunhofer diffraction due to a single slit and hence obtain the condition for primary and secondary maxima.
-	\item \textbf{(a)} With neat diagrams describe the construction and working of a He-Ne laser. \\
-	\vspace{-0.5cm}
-	\begin{center}
-		\textbf{or}
-	\end{center}
-	\vspace{-0.5cm}
-	\textbf{(b)} (i) Derive an expression for the numerical aperture of an optical fiber. \\
-	(ii) An optical fibre has a core material of refractive index 1.55 and cladding material of refractive index 1.50. The light is launched into it in air. Calculate its numerical aperture.
-	\item \textbf{(a)} Explain the phenomenon of polarization of light. Describe the different methods for producing polarized light. \\
-	\vspace{-0.5cm}
-	\begin{center}
-		\textbf{or}
-	\end{center}
-	\vspace{-0.5cm}
-	\textbf{(b)} Discuss the applications of polarization in various fields such as optics, photography, and 3D movies.
-	\item \textbf{(a)} Explain the concept of superconductivity. Discuss the Meissner effect and its significance. \\
-	\vspace{-0.5cm}
-	\begin{center}
-		\textbf{or}
-	\end{center}
-	\vspace{-0.5cm}
-	\textbf{(b)} Describe the types of superconductors and their applications in modern technology.
-\end{enumerate}
+% PART-B Header
+\begin{center}
+\textbf{PART-B (20M)} \\
+\textbf{Answer all THREE questions. Each question carries FIVE Marks.} \\
+\vspace{-0.3cm}
+\noindent\rule{\textwidth}{0.4pt} % Horizontal line under PART-B header
+\end{center}
 
-\vspace{0.75in}
-\noindent
-\centering
-{\large \bfseries Best wishes}
+% PART-B Questions
+\begin{tabularx}{\textwidth}{|c|X|r|}
+\hline
+\textbf{No.} & \textbf{Question} & \textbf{Marks} \\
+\hline
+6. & (A) Explain the different research approaches with their advantages and disadvantages.
+\begin{center} \textbf{or} \end{center}
+(B) Develop a research objective related to a topic of your interest and discuss its importance. & 5 M \\
+\hline
+7. & (A) Discuss ethical considerations in research and their importance. 
+\begin{center} \textbf{or} \end{center} 
+(B) How does problem formulation relate to the research process? Discuss. & 5 M \\
+\hline
+8. & (A) Describe data collection methods and their relevance to research outcomes. 
+\begin{center} \textbf{or} \end{center} 
+(B) Compare and contrast qualitative and quantitative research methods. & 5 M \\
+\hline
+\end{tabularx}
+
 \end{document}
