@@ -1,0 +1,113 @@
+\documentclass[12pt, a4paper]{exam}
+\usepackage{graphicx}
+\usepackage[left=0.8in, top=0.7in, total={6.2in,8in}]{geometry}
+\usepackage[normalem]{ulem}
+\renewcommand\ULthickness{1.0pt}
+\setlength\ULdepth{1.3ex}
+
+\begin{document}
+
+% Add logo centered at the top
+% \begin{center}
+% 	\includegraphics[width=1.5in]{ibaccnf.png} % Adjust the width of the logo
+% 	\vspace{0.1in} % Adjust spacing between logo and text
+% \end{center}
+
+% Center the main text
+\begin{center}
+	{\large CMR COLLEGE OF ENGINEERING \& TECHNOLOGY \par}
+	{\small (UGC AUTONOMOUS) \par}
+	{\large B.Tech I Semester Supplementary Examinations September-2023 \par}
+	{\large \textbf{ENGINEERING PHYSICS} \par}
+	{\small \textbf{Course Code: A30008} \par}
+	{Date: 07.09.2023 AN \par}
+	{Max.Marks: 70}
+\end{center}
+
+\vspace{0.2in}
+\noindent
+\uline{Time: 3 hours \hfill R18 \hfill Max marks: 70}
+\par
+\vspace{0.15in}
+\noindent
+\centering
+{\small \bfseries Attempt all questions}
+
+\vspace{0.5in}
+\noindent
+\centering
+{\large \bfseries PART-A}
+\par
+\vspace{0.2in}
+\noindent
+\centering
+{\small Answer all TEN questions (Compulsory). Each question carries TWO marks.}
+\par
+\begin{enumerate}
+	\item What are damped oscillations? Give examples.
+	\item Distinguish between free and forced oscillations.
+	\item Explain the principle of superposition of waves.
+	\item Explain the differences between Fresnel and Fraunhofer diffraction.
+	\item Explain the characteristics of a laser beam.
+	\item What is meant by attenuation in optical fiber?
+	\item Define: a) Electric dipole, b) Dielectric moment, c) Polarizability, and d) Dipole moment.
+	\item Compare the properties of soft and hard magnetic materials.
+	\item Discuss how the physical and chemical properties of nano-particles vary with their size.
+	\item What are the classifications of nanomaterials?
+\end{enumerate}
+
+\vspace{0.5in}
+\noindent
+\centering
+{\large \bfseries PART-B}
+\par
+\vspace{0.2in}
+\noindent
+\centering
+{\small Answer the following. Each question carries TEN Marks.}
+\par
+\begin{enumerate}
+	\setcounter{enumi}{10} % Continue numbering from 11
+	\item \textbf{(a)} What is a transverse wave? Obtain the equation for the velocity of a transverse wave in a stretched string. Write the laws of transverse vibrations of the strings. \\
+	\vspace{-0.5cm}
+	\begin{center}
+		\textbf{or}
+	\end{center}
+	\vspace{-0.5cm}
+	\textbf{(b)} What are forced oscillations? Obtain an expression for the amplitude of a forced oscillator.
+	\item \textbf{(a)} Apply the concept of Interference to explain the Newton’s rings experiment and deduce the expression for the radius of curvature of a Plano convex lens. \\
+	\vspace{-0.5cm}
+	\begin{center}
+		\textbf{or}
+	\end{center}
+	\vspace{-0.5cm}
+	\textbf{(b)} Give the theory of Fraunhofer diffraction due to a single slit and hence obtain the condition for primary and secondary maxima.
+	\item \textbf{(a)} With neat diagrams describe the construction and working of a He-Ne laser. \\
+	\vspace{-0.5cm}
+	\begin{center}
+		\textbf{or}
+	\end{center}
+	\vspace{-0.5cm}
+	\textbf{(b)} (i) Derive an expression for the numerical aperture of an optical fiber. \\
+	(ii) An optical fibre has a core material of refractive index 1.55 and cladding material of refractive index 1.50. The light is launched into it in air. Calculate its numerical aperture.
+	\item \textbf{(a)} Explain the phenomenon of polarization of light. Describe the different methods for producing polarized light. \\
+	\vspace{-0.5cm}
+	\begin{center}
+		\textbf{or}
+	\end{center}
+	\vspace{-0.5cm}
+	\textbf{(b)} Discuss the applications of polarization in various fields such as optics, photography, and 3D movies.
+	\item \textbf{(a)} Explain the concept of superconductivity. Discuss the Meissner effect and its significance. \\
+	\vspace{-0.5cm}
+	\begin{center}
+		\textbf{or}
+	\end{center}
+	\vspace{-0.5cm}
+	\textbf{(b)} Describe the types of superconductors and their applications in modern technology.
+\end{enumerate}
+
+\vspace{0.75in}
+\noindent
+\centering
+{\large \bfseries Best wishes}
+\end{document}

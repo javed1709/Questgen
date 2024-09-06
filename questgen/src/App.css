@@ -1,0 +1,289 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header Styles */
+.header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header nav ul li {
+  display: inline;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header nav ul li a:hover,
+.header nav ul li:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+/* Landing Page Styles */
+.hero {
+  background: #f4f4f4;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #0056b3;
+}
+
+.about,
+.how-it-works,
+.contact {
+  padding: 40px 20px;
+  background: #fff;
+}
+
+.about h2,
+.how-it-works h2,
+.contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact {
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+div > form {
+  text-align: center;
+}
+
+label {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #202530; /* Change border to a solid border */
+  background: #fff; /* Change background to white */
+  outline: none;
+  font-size: 0.9em;
+  font-family: inherit;
+  color: #202530; /* Change text color to a darker shade */
+  transition: all 0.4s;
+}
+
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.part-section {
+  border: 1px solid #d9d9d9;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
+
+.question-section {
+  margin-bottom: 16px;
+}
+
+button {
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.page-indicator {
+  margin: 0 10px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.preview-container {
+  flex: 1.7;
+  padding: 20px;
+  border-left: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.preview-box {
+  border: 1px solid #000;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 1.4;
+  width: 100%; /* Adjust to fit the container */
+  height: auto; /* Adjust height to fit content */
+  box-sizing: border-box;
+  overflow: hidden; /* Ensure content does not overflow */
+  margin: 0 auto; /* Center the box */
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header1 p {
+  margin: 0;
+}
+
+.header1 .underline {
+  border-bottom: 1px solid #000;
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+.center-text {
+  text-align: center;
+  margin-top: 0;
+}
+
+.center-text img {
+  max-height: 70px;
+  margin-bottom: 0;
+}
+
+.center-text p {
+  margin: 0;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 150vh;
+}
+
+.content-container {
+  flex-grow: 1;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding: 10px;
+}
+
+span {
+  text-align: center;
+} 
+/* .download-button {
+  display: block;
+  margin: 10px auto;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+} */

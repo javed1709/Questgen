@@ -1,0 +1,10 @@
+1. What is Ruby? Advantages and Disadvantages of Ruby?
+2. Write the structure and execution process of Ruby?
+3. Explain the package management with RubyGems?
+4. Write about the widgets available in RubyTK?
+5. Write a TK program by using Mega widget?
+6. Write a TK program by using Canvas widget?
+7. Explain about Ruby/TK event handling?
+8. Write about Ruby Objects in C?
+9. Write a sample Ruby program in C?
+10. Write the process of sharing data between Ruby and C? Explain with example program?

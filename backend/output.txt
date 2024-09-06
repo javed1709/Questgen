@@ -1,0 +1,18 @@
+## 2 Mark Questions:
+
+1. **What is the primary goal of using design patterns in software development?**
+2. **Name two design patterns commonly used in the Model-View-Controller (MVC) architecture.**
+3. **What is the purpose of organizing design patterns into a catalog?**
+4. **How do design patterns contribute to solving design problems?**
+5. **What are the two main phases involved in selecting a suitable design pattern for a problem?**
+6. **Briefly describe the concept of "intent" as applied to design patterns.**
+7. **What is the role of the "participants" in a design pattern description?**
+8. **Explain the difference between a creational and a structural design pattern.**
+9. **Why is it important to understand the "known uses" of a design pattern before implementing it?**
+10. **How can a design pattern help in improving the maintainability of software?**
+
+
+## 5 Mark Questions:
+
+1. **Describe the MVC design pattern in detail. Explain how it addresses common design challenges in software development.**
+2. **Choose any two design patterns from the catalog and discuss their purpose, structure, and potential applications. Highlight how these patterns can improve the design and maintainability of software.** 

@@ -1,0 +1,127 @@
+/* Upload Page Styles */
+
+/* Container for the whole page */
+.upload-page-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* File upload input styling */
+.upload-input {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 2px dashed #ccc;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    color: #666;
+}
+
+.upload-input:hover {
+    border-color: #aaa;
+}
+
+/* Button styling for upload and generate actions */
+.upload-button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for progress or message display */
+.upload-message {
+    margin-top: 20px;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Section to display generated questions or results */
+.upload-generated-results {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 95%;
+    max-width: 600px;
+}
+
+/* Styling for file upload section titles */
+.upload-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Error message styling */
+.upload-error {
+    color: red;
+    margin-top: 10px;
+    font-size: 13px;
+    display: block;
+}
+
+/* Success message styling */
+.upload-success {
+    color: green;
+    margin-top: 10px;
+    font-size: 13px;
+    display: block;
+}
+
+/* Input and textarea styling */
+.upload-query-input, .upload-raw-text-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Centering the form container */
+.upload-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Styling for preview container */
+.upload-preview-container {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Ensure content within <pre> tags wraps and does not overflow */
+.upload-generated-results pre {
+    white-space: pre-wrap; /* Wraps the text within the <pre> tag */
+    word-wrap: break-word; /* Breaks long words to fit within the container */
+    overflow: auto; /* Adds scrollbars if necessary */
+}
