@@ -57,7 +57,7 @@ html {
 }
 
 /* Landing Page Styles */
-.hero {
+.hero,.about, .how-it-works {
   background: #f4f4f4;
   padding: 60px 20px;
   text-align: center;
@@ -272,6 +272,7 @@ button {
 span {
   text-align: center;
 } 
+
 /* .download-button {
   display: block;
   margin: 10px auto;

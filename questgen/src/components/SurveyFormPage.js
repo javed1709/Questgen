@@ -3,15 +3,11 @@ import React, { useState } from 'react';
 const SurveyFormPage = () => {
     const [latexCode, setLatexCode] = useState('');
     const [pdfUrl, setPdfUrl] = useState(null);
-
-    const handleInputChange = (event) => {
-        setLatexCode(event.target.value);
-        setPdfUrl(null);
-    };
+    const [selectedFile, setSelectedFile] = useState('');
 
     const handleCompile = async () => {
         try {
-            const response = await fetch('https://shashankbhake.pythonanywhere.com/compile', {
+            const response = await fetch('https://tinyurl.com/cmpillatex', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -40,24 +36,59 @@ const SurveyFormPage = () => {
         document.body.removeChild(link);
     };
 
+    const readFileContent = async (filePath) => {
+        try {
+            const response = await fetch(filePath);
+            if (!response.ok) {
+                throw new Error('Failed to read file');
+            }
+            const text = await response.text();
+            setLatexCode(text);
+            setPdfUrl(null);
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    };
+
+    const handleFileSelection = (event) => {
+        const selectedFile = event.target.value;
+        setSelectedFile(selectedFile);
+        const filePath = selectedFile === 'midqp' ? '/midqp.txt' : '/semqp.txt';
+        readFileContent(filePath);
+    };
+
     return (
-        <div>
-            <h1>LaTeX Compiler</h1>
-            <textarea
-                rows="10"
-                cols="50"
-                value={latexCode}
-                onChange={handleInputChange}
-                placeholder="Enter LaTeX code here"
-            />
-            <br />
-            <button onClick={handleCompile}>Compile LaTeX</button>
+        <div style={{ textAlign: 'center', margin: '20px' }}>
+            <h1>Template Type</h1>
+            <div style={{ marginBottom: '20px' }}>
+                <input
+                    type="radio"
+                    id="midqp"
+                    name="file"
+                    value="midqp"
+                    checked={selectedFile === 'midqp'}
+                    onChange={handleFileSelection}
+                />
+                <label htmlFor="midqp">Midterm</label>
+                <br />
+                <input
+                    type="radio"
+                    id="semqp"
+                    name="file"
+                    value="semqp"
+                    checked={selectedFile === 'semqp'}
+                    onChange={handleFileSelection}
+                />
+                <label htmlFor="semqp">Semester</label>
+                <br />
+            </div>
+            <button onClick={handleCompile} style={{ marginBottom: '20px' }}>Compile LaTeX</button>
             {pdfUrl && (
                 <div>
-                    <h2>Compiled PDF</h2>
-                    <button onClick={handleDownload}>Download PDF</button>
-                    <br /><br />
-                    <iframe src={pdfUrl} width="100%" height="600px" title="PDF Preview"></iframe>
+                    <button onClick={handleDownload} style={{ marginBottom: '20px' }}>Download PDF</button>
+                    <h2>Preview</h2>
+                    <br />
+                    <iframe src={pdfUrl} width="80%" height="600px" title="PDF Preview"></iframe>
                 </div>
             )}
         </div>

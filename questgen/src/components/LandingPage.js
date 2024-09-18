@@ -19,11 +19,11 @@ const LandingPage = () => {
                 <p>Our app uses AI to help you generate questions based on your syllabus. Upload your file, and let us do the rest!</p>
             </section>
 
-            <section id="contact" className="contact">
+            {/* <section id="contact" className="contact">
                 <h2>Contact Us</h2>
                 <p>Have questions? Get in touch with us!</p>
                 <p>Email: support@example.com</p>
-            </section>
+            </section> */}
         </div>
     );
 };

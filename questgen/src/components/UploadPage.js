@@ -4,11 +4,21 @@ import './upload.css'; // Import the specific CSS file for UploadPage
 
 const UploadPage = () => {
     const [file, setFile] = useState(null);
-    const [loading, setLoading] = useState(false);
+    const [uploadLoading, setUploadLoading] = useState(false);
+    const [queryLoading, setQueryLoading] = useState(false);
     const [extractedData, setExtractedData] = useState('');
     const [questions, setQuestions] = useState('');
     const [queryText, setQueryText] = useState('');
     const [rawText, setRawText] = useState('');
+    const [examType, setExamType] = useState('sem');
+
+    // New state variables for the additional form fields
+    const [date, setDate] = useState('');
+    const [anFn, setAnFn] = useState('');
+    const [courseName, setCourseName] = useState('');
+    const [courseCode, setCourseCode] = useState('');
+    const [semester, setSemester] = useState('');
+    const [collegeName, setCollegeName] = useState('');
 
     const handleFileChange = (e) => {
         setFile(e.target.files[0]);
@@ -17,10 +27,17 @@ const UploadPage = () => {
     const handleUpload = async () => {
         if (!file) return;
 
-        setLoading(true);
+        setUploadLoading(true);
         const formData = new FormData();
         formData.append('file', file);
         formData.append('queryText', queryText);
+        formData.append('examType', examType);
+        formData.append('date', date);
+        formData.append('anFn', anFn);
+        formData.append('courseName', courseName);
+        formData.append('courseCode', courseCode);
+        formData.append('semester', semester);
+        formData.append('collegeName', collegeName);
 
         try {
             const response = await axios.post('http://localhost:3322/upload', formData);
@@ -29,23 +46,33 @@ const UploadPage = () => {
         } catch (error) {
             console.error('Error uploading file:', error);
         } finally {
-            setLoading(false);
+            setUploadLoading(false);
         }
     };
 
     const handleQuery = async () => {
         if (!rawText) return;
 
-        setLoading(true);
+        setQueryLoading(true);
 
         try {
-            const response = await axios.post('http://localhost:3322/query', { rawText, queryText });
-            setExtractedData(rawText); // Set rawText as extractedData
-            setQuestions(response.data.queryResult); // Set queryResult as questions
+            const response = await axios.post('http://localhost:3322/query', {
+                rawText,
+                queryText,
+                examType,
+                date,
+                anFn,
+                courseName,
+                courseCode,
+                semester,
+                collegeName
+            });
+            setExtractedData(rawText);
+            setQuestions(response.data.queryResult);
         } catch (error) {
             console.error('Error querying text:', error);
         } finally {
-            setLoading(false);
+            setQueryLoading(false);
         }
     };
 
@@ -57,12 +84,42 @@ const UploadPage = () => {
         setRawText(e.target.value);
     };
 
+    const handleExamTypeChange = (e) => {
+        setExamType(e.target.value);
+    };
+
+    // Handlers for new input fields
+    const handleDateChange = (e) => setDate(e.target.value);
+    const handleAnFnChange = (e) => setAnFn(e.target.value);
+    const handleCourseNameChange = (e) => setCourseName(e.target.value);
+    const handleCourseCodeChange = (e) => setCourseCode(e.target.value);
+    const handleSemesterChange = (e) => setSemester(e.target.value);
+    const handleCollegeNameChange = (e) => setCollegeName(e.target.value);
+
     return (
         <div className="upload-page-container">
-            <div className="upload-form-container">
+                {/* New Input Fields */}
+                <h1>Mandatorys</h1>
+                <input type="date" value={date} onChange={handleDateChange} placeholder="Date" className="upload-date-input" />
+                <input type="text" value={anFn} onChange={handleAnFnChange} placeholder="AN/FN" className="upload-anfn-input" />
+                <input type="text" value={courseName} onChange={handleCourseNameChange} placeholder="Course Name" className="upload-course-name-input" />
+                <input type="text" value={courseCode} onChange={handleCourseCodeChange} placeholder="Course Code" className="upload-course-code-input" />
+                <input type="text" value={semester} onChange={handleSemesterChange} placeholder="Semester" className="upload-semester-input" />
+                <input type="text" value={collegeName} onChange={handleCollegeNameChange} placeholder="College Name" className="upload-college-name-input" />
+                <div className="upload-form-container">
                 <input type="file" onChange={handleFileChange} className="upload-input" />
-                <button onClick={handleUpload} className="upload-button" disabled={loading}>
-                    {loading ? 'Uploading...' : 'Upload'}
+                <button onClick={handleUpload} className="upload-button" disabled={uploadLoading}>
+                    {uploadLoading ? 'Uploading...' : 'Upload'}
+                </button>
+                <p>or</p>
+                <textarea
+                    value={rawText}
+                    onChange={handleRawTextChange}
+                    placeholder="Enter raw text to query"
+                    className="upload-raw-text-input"
+                />
+                 <button onClick={handleQuery} className="upload-button" disabled={queryLoading}>
+                    {queryLoading ? 'Querying...' : 'Get Query'}
                 </button>
                 <input
                     type="text"
@@ -71,22 +128,25 @@ const UploadPage = () => {
                     placeholder="Enter prompt for Gemini AI"
                     className="upload-query-input"
                 />
-                <textarea
-                    value={rawText}
-                    onChange={handleRawTextChange}
-                    placeholder="Enter raw text to query"
-                    className="upload-raw-text-input"
-                />
-                <button onClick={handleQuery} className="upload-button" disabled={loading}>
-                    {loading ? 'Querying...' : 'Get Query'}
-                </button>
-            </div>
-            <div className="upload-preview-container">
-                <div className="upload-generated-results">
-                    <h3>Extracted Data:</h3>
-                    <pre>{extractedData}</pre>
-                    <h3>Generated Questions:</h3>
-                    <pre>{questions}</pre>
+                <div className="exam-type-container">
+                    <label>
+                        <input
+                            type="radio"
+                            value="sem"
+                            checked={examType === 'sem'}
+                            onChange={handleExamTypeChange}
+                        />
+                        Semester
+                    </label>
+                    <label>
+                        <input
+                            type="radio"
+                            value="mid"
+                            checked={examType === 'mid'}
+                            onChange={handleExamTypeChange}
+                        />
+                        Midterm
+                    </label>
                 </div>
             </div>
         </div>

@@ -36,7 +36,7 @@
     display: inline-block;
     padding: 12px 24px;
     margin: 10px 0;
-    background-color: #4CAF50;
+    background-color:#007bff;
     color: white;
     border: none;
     border-radius: 4px;
@@ -45,7 +45,7 @@
 }
 
 .upload-button:hover {
-    background-color: #45a049;
+    background-color: #007bff;
 }
 
 /* Styling for progress or message display */
@@ -91,7 +91,10 @@
 }
 
 /* Input and textarea styling */
-.upload-query-input, .upload-raw-text-input {
+.upload-query-input, .upload-raw-text-input, 
+.upload-date-input, .upload-anfn-input, 
+.upload-course-name-input, .upload-course-code-input, 
+.upload-semester-input, .upload-college-name-input {
     width: 100%;
     max-width: 400px;
     padding: 10px;
@@ -119,9 +122,19 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 /* Ensure content within <pre> tags wraps and does not overflow */
 .upload-generated-results pre {
     white-space: pre-wrap; /* Wraps the text within the <pre> tag */
     word-wrap: break-word; /* Breaks long words to fit within the container */
     overflow: auto; /* Adds scrollbars if necessary */
+}
+
+/* Exam type radio button container */
+.exam-type-container {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }

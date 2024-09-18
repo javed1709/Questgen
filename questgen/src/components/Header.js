@@ -13,13 +13,13 @@ const Header = () => {
 
     return (
         <header className="header">
-            <div className="logo">Question Paper Generator</div>
+            <div className="logo">Questgen</div>
             <nav>
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li onClick={() => handleScroll('about')}>About</li>
                     <li onClick={() => handleScroll('how-it-works')}>How It Works</li>
-                    <li onClick={() => handleScroll('contact')}>Contact</li>
+                    {/* <li onClick={() => handleScroll('contact')}>Contact</li> */}
                     <li><Link to="/survey">Survey Form</Link></li>
                     <li><Link to="/upload">Upload</Link></li>
                     {/* <li><Link to="/preview">Preview</Link></li> */}
