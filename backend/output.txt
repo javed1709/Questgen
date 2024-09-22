@@ -18,15 +18,16 @@
 % Header
 \noindent
 \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r@{}}
-\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: \uline{\hspace{1.6in}}} \\
+\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{AN} & \textbf{Course Code: ADFRE5} \\
 \end{tabular*}
 
 % Title and Details
 \begin{center}
-\textbf{CMR INSTITUTE OF TECHNOLOGIES} \\
-\textbf{B.Tech VII Semester Regular Examinations} \\
-\textbf{Course Name: \uline{\hspace{1.6in}}} \\
-\textbf{Date: \uline{2024-09-11}} \hfill \textbf{Time: 3 hours} \hfill \textbf{Max. Marks: 70M} \\
+\textbf{VASAVI COLLEGE OF ENGINEERING} \\
+\textbf{(UGC AUTONOMOUS)} \\
+\textbf{B.Tech VII Semester Regular Examinations - 2024} \\
+\textbf{Course Name: Ethical Hacking} \\
+\textbf{Date: 2024-09-20} \hfill \textbf{Time: 3 hours} \hfill \textbf{Max. Marks: 70M} \\
 \vspace{-0.3cm}
 \noindent\rule{\textwidth}{0.4pt} % Horizontal line
 \end{center}
@@ -50,25 +51,25 @@
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-1. & What is Herzberg's Two-Factor Theory, and how does it explain employee motivation? & 2 M \\
+1. & Define Ethical Hacking and explain its purpose. & 2 M \\
 \hline
-2. & Describe two distinct leadership styles, highlighting their key characteristics and effectiveness in different situations. & 2 M \\
+2. & Briefly describe the different layers of the TCP/IP protocol stack. & 2 M \\
 \hline
-3. & List and explain the primary objectives of Human Resource Management (HRM). & 2 M \\
+3. & Explain the concept of IP addressing and its significance. & 2 M \\
 \hline
-4. & Identify and discuss at least three recent trends in marketing that have significantly impacted businesses. & 2 M \\
+4. & Differentiate between TCP and UDP protocols. & 2 M \\
 \hline
-5. & Explain the key differences between inflation and deflation, focusing on their causes and effects on the economy. & 2 M \\
+5. & What is IP Subnetting? Explain its benefits. & 2 M \\
 \hline
-6. & Define management and discuss its nature, outlining the essential elements that characterize it.  Also, elaborate on the scope of management, including its various functions and levels. & 2 M \\
+6. & Describe the working principle of a routing protocol. & 2 M \\
 \hline
-7. & Explain the five core functions of management (Planning, Organizing, Staffing, Directing, and Controlling), providing a detailed description of each function and its role in achieving organizational goals. & 2 M \\
+7. & What is IP version 6 (IPv6)? Briefly discuss its advantages over IPv4. & 2 M \\
 \hline
-8. & Provide a detailed explanation of the marketing mix, discussing each element (product, price, place, promotion) and its significance in achieving marketing objectives. & 2 M \\
+8. & Explain the concept of IP spoofing. & 2 M \\
 \hline
-9. & Define plant layout and discuss its various types, explaining the advantages and disadvantages of each type in different production settings. & 2 M \\
+9. & What are the different types of DoS attacks?  & 2 M \\
 \hline
-10. & What are the key differences between microeconomics and macroeconomics? How do these differences affect the scope and methods of analysis in each field? & 2 M \\
+10. & Describe the role of a firewall in network security. & 2 M \\
 \hline
 \end{tabularx}
 
@@ -88,13 +89,13 @@
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-11. & (A)  Explain the stages of the product life cycle in detail.  For each stage, discuss the key characteristics, marketing strategies, and financial considerations.
+11. & (A) Explain the different types of port scanning techniques used in ethical hacking. 
 \begin{center} \textbf{or} \end{center}
-(B) Discuss the concept of directing as a management function, explaining its essential elements, techniques, and challenges in effective leadership. & 10 M \\
+(B) Discuss the various models of distributed denial-of-service (DDoS) attacks and their mitigation strategies. & 10 M \\
 \hline
-12. & (A)  List and explain the key characteristics of effective management.  How do these characteristics contribute to organizational success?
+12. & (A) Describe the working of packet filter firewalls and their limitations. 
 \begin{center} \textbf{or} \end{center}
-(B) Explain the functions of Production Planning and Control (PPC), discussing the essential steps involved in this process and the importance of effective PPC in achieving optimal production outcomes.  & 10 M \\
+(B) Explain the concept of application proxy firewalls and their advantages. & 10 M \\
 \hline
 \end{tabularx}
 
@@ -105,99 +106,18 @@
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-13. & (A)  Define the Production Function and discuss its significance in economics. Explain the various factors that influence production, including labor, capital, and technology.
+13. & (A) Explain how DNS spoofing attacks can be carried out. 
 \begin{center} \textbf{or} \end{center}
-(B) Define Managerial Economics, outlining its scope and key concepts. Discuss how managerial economics can be applied to make informed business decisions.  & 10 M \\
+(B) Describe the different types of SYN attacks and their impact on network performance. & 10 M \\
 \hline
-14. & (A)  Explain the 14 principles of management proposed by Henry Fayol, providing a clear description of each principle and its practical application in modern organizations.
+14. & (A) Discuss the importance of security auditing and penetration testing in network security. 
 \begin{center} \textbf{or} \end{center}
-(B)  Discuss Maslow's Hierarchy of Needs theory of motivation, explaining the different levels of needs and their impact on employee behavior.  & 10 M \\
+(B) Explain the concept of vulnerability scanning and its significance in network security. & 10 M \\
 \hline
-15. & (A)  Explain the functions of Human Resource Management (HRM) in detail, covering areas such as recruitment, training, performance management, and employee relations.
+15. & (A) Briefly describe the different types of batch files and their applications.
 \begin{center} \textbf{or} \end{center}
-(B)  Discuss the objectives and goals of Financial Management, highlighting its key areas of focus, such as investment decisions, financing decisions, and dividend policies. & 10 M \\
-\hline
-\end{tabularx}
-
-\vspace{0.2cm} % Reduced vertical space
-
-% Section-C Header
-\begin{center}
-\textbf{SECTION-C (20M)} \\
-\textbf{Answer any ONE question from this section. The question carries TWENTY marks.} \\
-\vspace{-0.2cm}
-\noindent\rule{\textwidth}{0.4pt} % Horizontal line under SECTION-C header
-\end{center}
-\vspace{-0.3cm} % Further reduced vertical space below Section-C header
-
-% Section-C Questions
-\begin{tabularx}{\textwidth}{|c|X|r|}
-\hline
-\textbf{No.} & \textbf{Question} & \textbf{Marks} \\
-\hline
-16. & (A)  Describe the nature and scope of Managerial Economics, highlighting its interdisciplinary character and its application in solving real-world business problems.
-\begin{center} \textbf{or} \end{center}
-(B) Explain the process of Internal and External scanning of the Business Environment, outlining the key factors to consider in each area. Discuss the importance of environmental scanning in making strategic decisions. & 20 M \\
-\hline
-\end{tabularx}
-
-
-\end{document}
-
-**BMFA ASSIGNMENT - 1**
-
-\noindent
-\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r@{}}
-\textbf{AN/FN:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: \uline{\hspace{1.6in}}} \\
-\end{tabular*}
-
-\begin{center}
-\textbf{CMR INSTITUTE OF TECHNOLOGIES} \\
-\textbf{B.Tech VII Semester Regular Examinations} \\
-\textbf{Course Name: \uline{\hspace{1.6in}}} \\
-\textbf{Date: \uline{2024-09-11}} \hfill \textbf{Time: 3 hours} \hfill \textbf{Max. Marks: 70M} \\
-\vspace{-0.3cm}
-\noindent\rule{\textwidth}{0.4pt} % Horizontal line
-\end{center}
-\vspace{-0.8cm} % Adjusted vertical space
-
-% Note
-\noindent
-\begin{center}
-\textbf{(Note: Assume suitable data if necessary)}
-\end{center} 
-\vspace{-0.8cm}
-
-% Section-A Header
-\begin{center}
-\textbf{SECTION-A (20M)} \\
-\textbf{Answer ALL FIVE questions. Each question carries FOUR marks.} \\
-\end{center}
-
-% Section-A Questions
-\begin{tabularx}{\textwidth}{|c|X|r|}
-\hline
-\textbf{No.} & \textbf{Question} & \textbf{Marks} \\
-\hline
-1. & Describe various leadership styles and theories. Explain how different leadership styles can be effective in different organizational contexts. & 4 M \\
-\hline
-2. & Write a note on the Scientific Management Principles proposed by F.W. Taylor, highlighting their key features and impact on industrial practices. & 4 M \\
-\hline
-3. & Explain the concept of the nature and scope of HRM. Discuss how HRM functions contribute to organizational effectiveness and employee well-being. & 4 M \\
-\hline
-4. & Explain the concept of systems of production and its types. Discuss the advantages and disadvantages of different production systems in various industries. & 4 M \\
-\hline
-5. & Explain the concept of National Income and its importance. Describe the different methods used to calculate national income and its significance in understanding economic performance. & 4 M \\
+(B) Create a batch file that displays a message and then shuts down the computer. & 10 M \\
 \hline
 \end{tabularx}
 
 \end{document}
-
-**Important Notes:**
-
-* **Fill in the missing details:**  Replace `\uline{\hspace{1.6in}}` with the appropriate course code, course name, and your AN/FN.
-* **Choose the appropriate options:**  In each question of Section-B and Section-C, you need to choose either option (A) or option (B) to answer. 
-* **Use the provided LaTeX template:** This template will help you format your answers correctly. You can copy and paste the questions and your answers into the template. 
-* **Provide detailed answers:** Be sure to provide comprehensive and well-supported answers to each question. Use examples and relevant concepts to illustrate your understanding.
-
-This LaTeX template and the rephrased questions should help you prepare for your BMFA assignments and examinations effectively. Good luck! 

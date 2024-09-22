@@ -7,7 +7,7 @@ const SurveyFormPage = () => {
 
     const handleCompile = async () => {
         try {
-            const response = await fetch('https://tinyurl.com/cmpillatex', {
+            const response = await fetch('https://javed8.pythonanywhere.com/compile', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
