@@ -18,12 +18,12 @@
 % Header
 \noindent
 \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r@{}}
-\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: TYIUIO9} \\
+\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: DFGT8} \\
 \end{tabular*}
 
 % Title and Details
 \begin{center}
-\textbf{CMR COLLEGE OF ENGINEERING AND TECHNOLOGY} \\
+\textbf{VASAVI COLLEGE OF ENGINEERING} \\
 \textbf{(UGC AUTONOMOUS)} \\
 \textbf{B.Tech VII Semester Mid Examinations  2024} \\
 \textbf{(Honors Programme in CSE)} \\
@@ -52,15 +52,15 @@
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-1. & Define ethical hacking and differentiate it from malicious hacking. & 1 M \\
+1. & What is the significance of ethical hacking in securing computer systems? & 1 M \\
 \hline
-2. & Describe the role of TCP/IP protocol stack in computer networking. & 1 M \\
+2. & Briefly describe the role of IP addressing in network communication. & 1 M \\
 \hline
-3. &  Explain the concept of IP subnetting and its significance in network security. & 1 M \\
+3. &  Explain the purpose of routing protocols in a network. & 1 M \\
 \hline
-4. & What is the difference between TCP and UDP protocols, and when is each protocol suitable? & 1 M \\
+4. & What are the advantages and disadvantages of using TCP over UDP? & 1 M \\
 \hline
-5. & Briefly describe the working principle of a packet filter firewall. & 1 M \\
+5. & Briefly describe the working principle of a packet inspection firewall. & 1 M \\
 \hline
 \end{tabularx}
 
