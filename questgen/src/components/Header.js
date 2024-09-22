@@ -20,7 +20,7 @@ const Header = () => {
                     <li onClick={() => handleScroll('about')}>About</li>
                     <li onClick={() => handleScroll('how-it-works')}>How It Works</li>
                     {/* <li onClick={() => handleScroll('contact')}>Contact</li> */}
-                    <li><Link to="/survey">Survey Form</Link></li>
+                    <li><Link to="/survey">Preview</Link></li>
                     <li><Link to="/upload">Upload</Link></li>
                     {/* <li><Link to="/preview">Preview</Link></li> */}
                 </ul>

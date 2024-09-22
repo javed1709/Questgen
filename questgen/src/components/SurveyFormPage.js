@@ -59,7 +59,7 @@ const SurveyFormPage = () => {
 
     return (
         <div style={{ textAlign: 'center', margin: '20px' }}>
-            <h1>Template Type</h1>
+            <h1>Template</h1>
             <div style={{ marginBottom: '20px' }}>
                 <input
                     type="radio"

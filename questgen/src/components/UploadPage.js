@@ -99,35 +99,13 @@ const UploadPage = () => {
     return (
         <div className="upload-page-container">
                 {/* New Input Fields */}
-                <h1>Mandatorys</h1>
+                <h1>Mandatory's</h1>
                 <input type="date" value={date} onChange={handleDateChange} placeholder="Date" className="upload-date-input" />
                 <input type="text" value={anFn} onChange={handleAnFnChange} placeholder="AN/FN" className="upload-anfn-input" />
                 <input type="text" value={courseName} onChange={handleCourseNameChange} placeholder="Course Name" className="upload-course-name-input" />
                 <input type="text" value={courseCode} onChange={handleCourseCodeChange} placeholder="Course Code" className="upload-course-code-input" />
                 <input type="text" value={semester} onChange={handleSemesterChange} placeholder="Semester" className="upload-semester-input" />
                 <input type="text" value={collegeName} onChange={handleCollegeNameChange} placeholder="College Name" className="upload-college-name-input" />
-                <div className="upload-form-container">
-                <input type="file" onChange={handleFileChange} className="upload-input" />
-                <button onClick={handleUpload} className="upload-button" disabled={uploadLoading}>
-                    {uploadLoading ? 'Uploading...' : 'Upload'}
-                </button>
-                <p>or</p>
-                <textarea
-                    value={rawText}
-                    onChange={handleRawTextChange}
-                    placeholder="Enter raw text to query"
-                    className="upload-raw-text-input"
-                />
-                 <button onClick={handleQuery} className="upload-button" disabled={queryLoading}>
-                    {queryLoading ? 'Querying...' : 'Get Query'}
-                </button>
-                <input
-                    type="text"
-                    value={queryText}
-                    onChange={handleQueryTextChange}
-                    placeholder="Enter prompt for Gemini AI"
-                    className="upload-query-input"
-                />
                 <div className="exam-type-container">
                     <label>
                         <input
@@ -148,6 +126,28 @@ const UploadPage = () => {
                         Midterm
                     </label>
                 </div>
+                <div className="upload-form-container">
+                <input type="file" onChange={handleFileChange} className="upload-input" />
+                <input
+                    type="text"
+                    value={queryText}
+                    onChange={handleQueryTextChange}
+                    placeholder="File Description (Eg:syllabus/questions)"
+                    className="upload-query-input"
+                />
+                <button onClick={handleUpload} className="upload-button" disabled={uploadLoading}>
+                    {uploadLoading ? 'Uploading...' : 'Upload'}
+                </button>
+                <p>or</p>
+                <textarea
+                    value={rawText}
+                    onChange={handleRawTextChange}
+                    placeholder="Enter raw text to query"
+                    className="upload-raw-text-input"
+                />
+                 <button onClick={handleQuery} className="upload-button" disabled={queryLoading}>
+                    {queryLoading ? 'Querying...' : 'Get Query'}
+                </button>
             </div>
         </div>
     );

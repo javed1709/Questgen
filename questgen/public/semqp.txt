@@ -18,16 +18,17 @@
 % Header
 \noindent
 \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r@{}}
-\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{AN} & \textbf{Course Code: ADFRE5} \\
+\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: UBDO9} \\
 \end{tabular*}
 
 % Title and Details
 \begin{center}
-\textbf{VASAVI COLLEGE OF ENGINEERING} \\
+\textbf{CMR COLLEGE OF ENGINEERING \& TECHNOLOGY} \\
 \textbf{(UGC AUTONOMOUS)} \\
-\textbf{B.Tech VII Semester Regular Examinations - 2024} \\
-\textbf{Course Name: Ethical Hacking} \\
-\textbf{Date: 2024-09-20} \hfill \textbf{Time: 3 hours} \hfill \textbf{Max. Marks: 70M} \\
+\textbf{B.Tech VII Semester Regular Examinations May-2023} \\
+\textbf{(Honors Programme in CSE)} \\
+\textbf{Course Name: Cloud Computing} \\
+\textbf{Date: 2024-09-22 FN} \hfill \textbf{Time: 3 hours} \hfill \textbf{Max. Marks: 70M} \\
 \vspace{-0.3cm}
 \noindent\rule{\textwidth}{0.4pt} % Horizontal line
 \end{center}
@@ -51,25 +52,25 @@
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-1. & Define Ethical Hacking and explain its purpose. & 2 M \\
+1. & Explain the concept of High-Performance Computing and its applications. & 2 M \\
 \hline
-2. & Briefly describe the different layers of the TCP/IP protocol stack. & 2 M \\
+2. & What are the key differences between parallel computing and distributed computing? & 2 M \\
 \hline
-3. & Explain the concept of IP addressing and its significance. & 2 M \\
+3. & Describe the architecture of a cluster computing system. & 2 M \\
 \hline
-4. & Differentiate between TCP and UDP protocols. & 2 M \\
+4. & How does grid computing differ from cloud computing? & 2 M \\
 \hline
-5. & What is IP Subnetting? Explain its benefits. & 2 M \\
+5. & List the advantages and disadvantages of using cloud computing. & 2 M \\
 \hline
-6. & Describe the working principle of a routing protocol. & 2 M \\
+6. & Discuss the potential of bio-computing for solving complex problems. & 2 M \\
 \hline
-7. & What is IP version 6 (IPv6)? Briefly discuss its advantages over IPv4. & 2 M \\
+7. & Explain the challenges of mobile computing in terms of resource constraints. & 2 M \\
 \hline
-8. & Explain the concept of IP spoofing. & 2 M \\
+8. & What is quantum computing, and what makes it different from classical computing? & 2 M \\
 \hline
-9. & What are the different types of DoS attacks?  & 2 M \\
+9. & Describe the principles behind optical computing. & 2 M \\
 \hline
-10. & Describe the role of a firewall in network security. & 2 M \\
+10. & What are the potential applications of nano-computing? & 2 M \\
 \hline
 \end{tabularx}
 
@@ -89,13 +90,13 @@
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-11. & (A) Explain the different types of port scanning techniques used in ethical hacking. 
+11. & (A) Explain the motivation for cloud computing and the need for a service-oriented architecture.
 \begin{center} \textbf{or} \end{center}
-(B) Discuss the various models of distributed denial-of-service (DDoS) attacks and their mitigation strategies. & 10 M \\
+(B) Discuss the concept of "Software as a Service" (SaaS) and its characteristics. & 10 M \\
 \hline
-12. & (A) Describe the working of packet filter firewalls and their limitations. 
+12. & (A) Define "Infrastructure as a Service" (IaaS) and explain its key features.
 \begin{center} \textbf{or} \end{center}
-(B) Explain the concept of application proxy firewalls and their advantages. & 10 M \\
+(B) What are the principles of cloud computing, and how do they contribute to its success? & 10 M \\
 \hline
 \end{tabularx}
 
@@ -106,17 +107,17 @@
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-13. & (A) Explain how DNS spoofing attacks can be carried out. 
+13. & (A) Describe the five essential characteristics of cloud computing and their significance. 
 \begin{center} \textbf{or} \end{center}
-(B) Describe the different types of SYN attacks and their impact on network performance. & 10 M \\
+(B) Explain the different cloud deployment models (public, private, hybrid, community) and their use cases. & 10 M \\
 \hline
-14. & (A) Discuss the importance of security auditing and penetration testing in network security. 
+14. & (A) Outline the layered architecture of a typical cloud computing system.
 \begin{center} \textbf{or} \end{center}
-(B) Explain the concept of vulnerability scanning and its significance in network security. & 10 M \\
+(B) Discuss the role of network connectivity in cloud computing and its impact on performance. & 10 M \\
 \hline
-15. & (A) Briefly describe the different types of batch files and their applications.
+15. & (A) Explain how various applications can be deployed and run on the cloud.
 \begin{center} \textbf{or} \end{center}
-(B) Create a batch file that displays a message and then shuts down the computer. & 10 M \\
+(B) Describe the challenges and strategies for managing cloud infrastructure and resources. & 10 M \\
 \hline
 \end{tabularx}
 

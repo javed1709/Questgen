@@ -6,9 +6,8 @@ const Footer = () => {
         <footer className="footer">
             <p>&copy; 2024 Question Paper Generator. All Rights Reserved.</p>
             <div className="social-links">
-                <Link to="/facebook">Facebook</Link>
-                <Link to="/twitter">Twitter</Link>
-                <Link to="/linkedin">LinkedIn</Link>
+                <a href='https://github.com/javed1709/Miniproject' rel='sourcecode'>Github</a>
+                <h2>Build-By:Javed</h2>
             </div>
         </footer>
     );

@@ -26,16 +26,16 @@ async function run(prompt) {
 
 // Helper function to generate the AI prompt
 function generatePrompt(queryText, extractedData, template, additionalFields) {
-    return `${queryText} : ${extractedData}
-Include the following details:
+    return `${queryText} : Utilize whole data That may be syllabus/Questions if syllabus generate questions on all topics equally and fill in:${extractedData} 
+Strictly modify all following details in latex template:
 Date: ${additionalFields.date}
-AN/FN: ${additionalFields.anFn}
+Modify it AN/FN : ${additionalFields.anFn}
 Course Name: ${additionalFields.courseName}
 Course Code: ${additionalFields.courseCode}
 Semester: ${additionalFields.semester}
 College Name: ${additionalFields.collegeName}
 
-Fill in the questions into the following LaTeX template:
+Fill in the questions into the following LaTeX template (For sake of place holders questions are filled to maintain a format so just replace the generated/ given questions with them):
 ${template}`;
 }
 

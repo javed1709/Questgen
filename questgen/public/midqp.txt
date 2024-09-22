@@ -18,32 +18,33 @@
 % Header
 \noindent
 \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r@{}}
-\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: A234R} \\
+\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: DFGT7} \\
 \end{tabular*}
 
 % Title and Details
 \begin{center}
-\textbf{CMR COLLEGE OF ENGINEERING AND TECHNOLOGY} \\
-%\textbf{(UGC AUTONOMOUS)} \\
-\textbf{B.Tech VII Semester Mid Examinations September-2024} \\
-\textbf{Course Name: BIG DATA} \\
-\textbf{Date: 2024-09-11 FN} \hfill \textbf{Time: 1.5 hours} \hfill \textbf{Max.Marks: 25M} \\
+\textbf{CMR INSTITUTE OF TECHNOLOGY} \\
+\textbf{(UGC AUTONOMOUS)} \\
+\textbf{B.Tech VII Semester Mid Examinations  2024} \\
+\textbf{(Honors Programme in CSE)} \\
+\textbf{Course Name: BMFA} \\
+\textbf{Date: 2024-09-22 FN} \hfill \textbf{Time: 1.5 hours} \hfill \textbf{Max.Marks: 25M} \\
 \vspace{-0.3cm}
 \noindent\rule{\textwidth}{0.4pt} % Horizontal line
 \end{center}
-\vspace{-0.5cm}
+\vspace{-0.8cm}
 
 % Note
 \noindent
 \begin{center}
 \textbf{(Note: Assume suitable data if necessary)}
 \end{center} 
-\vspace{-0.4cm}
+\vspace{-0.8cm}
 
 % PART-A Header
 \begin{center}
-\textbf{PART-A (10M)} \\
-\textbf{Answer all FIVE questions. Each question carries TWO marks.} \\
+\textbf{PART-A (5M)} \\
+\textbf{Answer all FIVE questions. Each question carries ONE mark.} \\
 \end{center}
 
 % PART-A Questions
@@ -51,15 +52,15 @@
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-1. & Define "Big Data" and list its four key characteristics (the four Vs). & 2 M \\
+1. & Write about Herzberg’s two factor theory & 1 M \\
 \hline
-2. & Briefly explain the differences between relational databases and Big Data systems. & 2 M \\
+2. & Explain any two leadership styles & 1 M \\
 \hline
-3. & What are the primary goals of Big Data analytics? & 2 M \\
+3. & Write the objectives of HRM & 1 M \\
 \hline
-4. & Mention three real-world applications of Big Data. & 2 M \\
+4. & List out the recent trends in marketing & 1 M \\
 \hline
-5. & Describe the concept of a NoSQL database system and give an example. & 2 M \\
+5. & Write the difference between Inflation and deflation. & 1 M \\
 \hline
 \end{tabularx}
 
@@ -67,7 +68,7 @@
 
 % PART-B Header
 \begin{center}
-\textbf{PART-B (15M)} \\
+\textbf{PART-B (20M)} \\
 \textbf{Answer all THREE questions. Each question carries FIVE Marks.} \\
 \vspace{-0.3cm}
 \noindent\rule{\textwidth}{0.4pt} % Horizontal line under PART-B header
@@ -78,17 +79,17 @@
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-6. & (A) Explain the architecture of Hadoop Distributed File System (HDFS). 
-\begin{center} \textbf{or} \end{center} 
-(B) Describe the process of loading data into HDFS and how data is read from it. & 5 M \\
+6. & (A) Define Management. Discuss about Nature and Scope of Management.
+\begin{center} \textbf{or} \end{center}
+(B) Explain the functions of Management in detail & 5 M \\
 \hline
-7. & (A) What is the concept of rack awareness in HDFS and how does it enhance performance? 
+7. & (A) Write a detailed note on Marketing Mix.
 \begin{center} \textbf{or} \end{center} 
-(B) Discuss the fault tolerance mechanisms implemented in HDFS. & 5 M \\
+(B) Describe the concept of Plant Layout and its types. & 5 M \\
 \hline
-8. & (A) Explain the concept of block size in HDFS and its impact on storage and retrieval efficiency.
+8. & (A) Discuss the difference between Micro and Macro Economics.
 \begin{center} \textbf{or} \end{center} 
-(B)  Discuss the future trends and challenges facing Hadoop and Big Data technology. & 5 M \\
+(B) Explain the stages of Product Life Cycle in detail. & 5 M \\
 \hline
 \end{tabularx}
 

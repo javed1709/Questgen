@@ -1,12 +1,18 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const LandingPage = () => {
+    const navigate = useNavigate();
+
+    const handleinitialstep = () => {
+        navigate('/upload');
+    };
     return (
         <div>
             <section className="hero">
                 <h1>Generate Customized Question Papers with AI</h1>
                 <p>Effortlessly create and customize question papers tailored to your needs using state-of-the-art AI technology.</p>
-                <button>Get Started</button>
+                <button onClick={handleinitialstep}>Get Started</button>
             </section>
 
             <section id="about" className="about">
