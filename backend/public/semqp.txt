@@ -1,4 +1,3 @@
-```latex
 \documentclass[12pt, a4paper]{article}
 \usepackage{graphicx}
 \usepackage[left=0.8in, right=0.8in, top=0.7in, bottom=0.7in]{geometry}
@@ -19,17 +18,17 @@
 % Header
 \noindent
 \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r@{}}
-\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: A30541} \\
+\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: A30536} \\
 \end{tabular*}
 
 % Title and Details
 \begin{center}
-\textbf{COLLEGE NAME} \\
+\textbf{CMR COLLEGE OF ENGINEERING \& TECHNOLOGY} \\
 \textbf{(UGC AUTONOMOUS)} \\
-\textbf{B.Tech VII Semester Regular Examinations May-2023} \\
+\textbf{B.Tech VI Semester Regular Examinations May-2023} \\
 \textbf{(Honors Programme in CSE)} \\
-\textbf{Course Name: COMPUTER VISION & IMAGE PROCESSING} \\
-\textbf{Date: AN/FN} \hfill \textbf{Time: 3 hours} \hfill \textbf{Max. Marks: 70M} \\
+\textbf{Course Name: RESEARCH METHODOLOGIES} \\
+\textbf{Date: 19.05.2023 AN} \hfill \textbf{Time: 3 hours} \hfill \textbf{Max. Marks: 70M} \\
 \vspace{-0.3cm}
 \noindent\rule{\textwidth}{0.4pt} % Horizontal line
 \end{center}
@@ -53,25 +52,25 @@
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-1. & Explain the process of image formation and the role of the camera matrix. & 2 M \\
+1. & Define literature review. & 2 M \\
 \hline
-2. &  Describe the pin-hole model and its application in understanding camera geometry. & 2 M \\
+2. & List different types of research approaches. & 2 M \\
 \hline
-3. & Discuss the cognitive aspects of human vision, including color perception and depth perception. & 2 M \\
+3. & Explain the importance of plagiarism in research. & 2 M \\
 \hline
-4. & What is the purpose of sampling and quantization in digital image processing? & 2 M \\
+4. & Describe the steps involved in a literature review. & 2 M \\
 \hline
-5. & Explain the concept of 3D transformations and their importance in computer vision. & 2 M \\
+5. & What is the role of citations in a research report? & 2 M \\
 \hline
-6. & Describe the image data structure and coding format used in OpenCV. & 2 M \\
+6. & Explain the difference between qualitative and quantitative research. & 2 M \\
 \hline
-7. & Discuss the different types of noise that can affect images and explain the methods for noise removal. & 2 M \\
+7. & What are the ethical considerations in conducting research? & 2 M \\
 \hline
-8. &  Compare and contrast Canny, Gaussian, and Gabor edge detection methods. & 2 M \\
+8. & Discuss the importance of a hypothesis in research. & 2 M \\
 \hline
-9. & Explain the Horn-Schunk optical flow formulation and its use in motion estimation. & 2 M \\
+9. & How does data collection impact research outcomes? & 2 M \\
 \hline
-10. & What is the role of the Euler-Lagrange formulation in solving motion estimation problems? & 2 M \\
+10. & Explain the concept of research methodology. & 2 M \\
 \hline
 \end{tabularx}
 
@@ -91,13 +90,13 @@
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-11. & (A) Describe the concept of structure recovery from motion using the Kanade method. 
+11. & (A) Discuss the various types of research designs and their applications. 
 \begin{center} \textbf{or} \end{center}
-(B) Discuss the application of texture edges and curvature in image processing tasks. & 10 M \\
+(B) Evaluate the challenges in conducting a literature review and propose solutions. & 10 M \\
 \hline
-12. & (A) Explain the concept of image segmentation and discuss the role of the watershed algorithm.
+12. & (A) Explain the significance of ethical practices in research. 
 \begin{center} \textbf{or} \end{center}
-(B) Describe the process of change detection and its applications in computer vision. & 10 M \\
+(B) Analyze the impact of data collection methods on research validity. & 10 M \\
 \hline
 \end{tabularx}
 
@@ -108,40 +107,18 @@
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-13. & (A) Explain the concept of background subtraction and its use in image segmentation.
+13. & (A) Compare and contrast experimental and non-experimental research methods. 
 \begin{center} \textbf{or} \end{center}
-(B) Discuss the application of Gaussian mixture models in image segmentation. & 10 M \\
+(B) How does sampling affect the reliability and validity of research findings? Discuss. & 10 M \\
 \hline
-14. & (A) Describe the challenges and approaches to performing color-based image segmentation.
+14. & (A) Describe the process of formulating a research problem with examples. 
 \begin{center} \textbf{or} \end{center}
-(B) Discuss the use of shape clustering techniques in image segmentation. & 10 M \\
+(B) Explain the steps involved in developing a research proposal. & 10 M \\
 \hline
-15. & (A) Describe the applications of computer vision in real-world scenarios, such as autonomous vehicles and medical imaging. 
+15. & (A) Discuss the role of statistical analysis in research and its benefits.
 \begin{center} \textbf{or} \end{center}
-(B) Discuss the ethical considerations and potential biases associated with computer vision systems. & 10 M \\
+(B) How can qualitative data be analyzed effectively? Provide examples. & 10 M \\
 \hline
 \end{tabularx}
 
 \end{document}
-```
-
-**Explanation of Changes:**
-
-1.  **Course Name:**  Replaced "Cloud Computing" with "COMPUTER VISION & IMAGE PROCESSING." 
-2.  **Course Code:**  Replaced "TYUIA8" with "A30541". 
-3.  **College Name:**  Replaced "CMR INSTITUTE OF TECHNOLOGY" with "COLLEGE NAME".  You need to replace this placeholder with the actual name of the college.
-4.  **Date:**  Replaced "2024-09-22 FN" with "AN/FN" for the required format. 
-
-**Generated Questions:**
-
-The questions generated cover the key topics from the syllabus for Computer Vision & Image Processing. The questions are designed to test students' understanding of:
-
-* **Image Formation & Coordinate Transformations:**  Camera matrix, pin-hole model, human vision.
-* **Image Processing & Motion Estimation:** Noise removal, blurring, edge detection, optical flow, structure recovery.
-* **Segmentation:** Figure-ground, watershed, change detection, background subtraction, texture segmentation, Gaussian mixture models, color/motion-based segmentation, background modeling, shape clustering.
-
-**Important Notes:**
-
-* **Replace Placeholders:**  Remember to replace the placeholders with the actual details of the college, course name, code, semester, and date.
-* **Modify Questions:** You can modify the questions, add more questions, or remove any questions that are not relevant to your specific syllabus.
-* **Use the Template:** The LaTeX template provides a professional and organized structure for your question paper. You can customize the template to suit your needs. 
