@@ -18,17 +18,17 @@
 % Header
 \noindent
 \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r@{}}
-\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: DFGT8} \\
+\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: A30541} \\
 \end{tabular*}
 
 % Title and Details
 \begin{center}
-\textbf{VASAVI COLLEGE OF ENGINEERING} \\
+\textbf{CMR abfhkfb bkrkjr} \\
 \textbf{(UGC AUTONOMOUS)} \\
 \textbf{B.Tech VII Semester Mid Examinations  2024} \\
 \textbf{(Honors Programme in CSE)} \\
-\textbf{Course Name: Ethical Hacking} \\
-\textbf{Date: 2024-09-22 AN} \hfill \textbf{Time: 1.5 hours} \hfill \textbf{Max.Marks: 25M} \\
+\textbf{Course Name: bdkhfhqade} \\
+\textbf{Date: 2024-09-23 AG} \hfill \textbf{Time: 1.5 hours} \hfill \textbf{Max.Marks: 25M} \\
 \vspace{-0.3cm}
 \noindent\rule{\textwidth}{0.4pt} % Horizontal line
 \end{center}
@@ -52,15 +52,15 @@
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-1. & What is the significance of ethical hacking in securing computer systems? & 1 M \\
+1. & What is the pinhole camera model and how does it represent image formation? & 1 M \\
 \hline
-2. & Briefly describe the role of IP addressing in network communication. & 1 M \\
+2. & Briefly describe the concept of sampling and quantization in image processing. & 1 M \\
 \hline
-3. &  Explain the purpose of routing protocols in a network. & 1 M \\
+3. &  Explain the role of edge detection in image processing and name a common edge detection algorithm. & 1 M \\
 \hline
-4. & What are the advantages and disadvantages of using TCP over UDP? & 1 M \\
+4. & What is optical flow and how is it used for motion estimation? & 1 M \\
 \hline
-5. & Briefly describe the working principle of a packet inspection firewall. & 1 M \\
+5. & Briefly describe the concept of segmentation in image processing. & 1 M \\
 \hline
 \end{tabularx}
 
@@ -79,17 +79,17 @@
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-6. & (A) Explain the concept of IP spoofing and its use in launching denial-of-service (DoS) attacks.
+6. & (A) Discuss the different types of image noise and explain how Gaussian noise is removed using filtering techniques.
 \begin{center} \textbf{or} \end{center}
-(B) Describe the process of port scanning and its role in vulnerability assessment. & 5 M \\
+(B) Describe the working principle of the Canny edge detection algorithm and its advantages over other edge detection methods. & 5 M \\
 \hline
-7. & (A) Discuss the different types of DoS attacks, including SYN floods, Smurf attacks, and UDP flooding.
+7. & (A) Explain the concept of structure from motion (SfM) and how it is used to reconstruct 3D scenes from multiple images.
 \begin{center} \textbf{or} \end{center} 
-(B) Explain the working principle of a packet inspection firewall and its advantages over a packet filter firewall. & 5 M \\
+(B) Discuss the use of Gaussian Mixture Models (GMMs) in image segmentation, including the principle of background modeling. & 5 M \\
 \hline
-8. & (A) Describe the concept of DNS spoofing and its impact on network security.
+8. & (A)  Describe the concept of image watershed segmentation and explain how it is used to separate objects in an image.
 \begin{center} \textbf{or} \end{center} 
-(B)  Elaborate on the role of application proxy firewalls in securing web applications. & 5 M \\
+(B)  Elaborate on the application of color and motion information for image segmentation.  & 5 M \\
 \hline
 \end{tabularx}
 

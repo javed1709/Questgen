@@ -36,11 +36,15 @@ const SurveyFormPage = () => {
         document.body.removeChild(link);
     };
 
-    const readFileContent = async (filePath) => {
+    const handleFileSelection = async (event) => {
+        const selectedFile = event.target.value;
+        setSelectedFile(selectedFile);
+        const endpoint = selectedFile === 'midqp' ? 'midtxt' : 'semtxt';
+
         try {
-            const response = await fetch(filePath);
+            const response = await fetch(`https://questgen.up.railway.app/${endpoint}`);
             if (!response.ok) {
-                throw new Error('Failed to read file');
+                throw new Error('Failed to fetch file content');
             }
             const text = await response.text();
             setLatexCode(text);
@@ -48,13 +52,6 @@ const SurveyFormPage = () => {
         } catch (error) {
             console.error('Error:', error);
         }
-    };
-
-    const handleFileSelection = (event) => {
-        const selectedFile = event.target.value;
-        setSelectedFile(selectedFile);
-        const filePath = selectedFile === 'midqp' ? '/midqp.txt' : '/semqp.txt';
-        readFileContent(filePath);
     };
 
     return (

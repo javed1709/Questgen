@@ -92,7 +92,7 @@ app.post("/upload", upload.single("file"), async (req, res) => {
       examType === "mid" ? "midqp.txt" : "semqp.txt";
     const latexTemplatePath = path.join(
       __dirname,
-      "../questgen/public/",
+      "./public/",
       latexTemplateFileName
     );
     const latexTemplate = await fs.readFile(latexTemplatePath, "utf8");
@@ -148,9 +148,10 @@ app.post("/query", async (req, res) => {
       examType === "mid" ? "midqp.txt" : "semqp.txt";
     const latexTemplatePath = path.join(
       __dirname,
-      "../questgen/public/",
+      "./public/",
       latexTemplateFileName
     );
+    console.log(latexTemplatePath);
     const latexTemplate = await fs.readFile(latexTemplatePath, "utf8");
 
     // Generate questions using Gemini AI
@@ -182,13 +183,30 @@ app.post("/query", async (req, res) => {
   }
 });
 
+// New endpoints to serve the LaTeX templates
+app.get('/midtxt', async (req, res) => {
+  try {
+    const filePath = path.join(__dirname, './public/midqp.txt');
+    const content = await fs.readFile(filePath, 'utf8');
+    res.send(content);
+  } catch (error) {
+    res.status(500).send('Error reading midterm file');
+  }
+});
+
+app.get('/semtxt', async (req, res) => {
+  try {
+    const filePath = path.join(__dirname, './public/semqp.txt');
+    const content = await fs.readFile(filePath, 'utf8');
+    res.send(content);
+  } catch (error) {
+    res.status(500).send('Error reading semester file');
+  }
+});
+
 // Start the server
 app.listen(port, () => {
   console.log(`Server running at https://questgen.up.railway.app/`);
-});
-
-app.use("/", (req, res) => {
-  res.send("Server is running");
 });
 
 app.use("/", (req, res) => {

@@ -1,0 +1,147 @@
+```latex
+\documentclass[12pt, a4paper]{article}
+\usepackage{graphicx}
+\usepackage[left=0.8in, right=0.8in, top=0.7in, bottom=0.7in]{geometry}
+\usepackage[normalem]{ulem}
+\renewcommand\ULthickness{1.0pt}
+\setlength\ULdepth{1.3ex}
+\usepackage{enumitem}
+\setlist{nosep} % Reduce space in lists
+\pagestyle{empty} % No page numbers
+\usepackage{amsmath}
+\usepackage{tabularx} % Tabularx for flexible columns
+
+% Reduce vertical space in table cells
+\renewcommand{\arraystretch}{1.3} % Adjust this value to reduce/increase space
+
+\begin{document}
+
+% Header
+\noindent
+\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r@{}}
+\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: A30541} \\
+\end{tabular*}
+
+% Title and Details
+\begin{center}
+\textbf{COLLEGE NAME} \\
+\textbf{(UGC AUTONOMOUS)} \\
+\textbf{B.Tech VII Semester Regular Examinations May-2023} \\
+\textbf{(Honors Programme in CSE)} \\
+\textbf{Course Name: COMPUTER VISION & IMAGE PROCESSING} \\
+\textbf{Date: AN/FN} \hfill \textbf{Time: 3 hours} \hfill \textbf{Max. Marks: 70M} \\
+\vspace{-0.3cm}
+\noindent\rule{\textwidth}{0.4pt} % Horizontal line
+\end{center}
+\vspace{-0.8cm} % Adjusted vertical space
+
+% Note
+\noindent
+\begin{center}
+\textbf{(Note: Assume suitable data if necessary)}
+\end{center} 
+\vspace{-0.8cm}
+
+% Section-A Header
+\begin{center}
+\textbf{SECTION-A (20M)} \\
+\textbf{Answer ALL TEN questions. Each question carries TWO marks.} \\
+\end{center}
+
+% Section-A Questions
+\begin{tabularx}{\textwidth}{|c|X|r|}
+\hline
+\textbf{No.} & \textbf{Question} & \textbf{Marks} \\
+\hline
+1. & Explain the process of image formation and the role of the camera matrix. & 2 M \\
+\hline
+2. &  Describe the pin-hole model and its application in understanding camera geometry. & 2 M \\
+\hline
+3. & Discuss the cognitive aspects of human vision, including color perception and depth perception. & 2 M \\
+\hline
+4. & What is the purpose of sampling and quantization in digital image processing? & 2 M \\
+\hline
+5. & Explain the concept of 3D transformations and their importance in computer vision. & 2 M \\
+\hline
+6. & Describe the image data structure and coding format used in OpenCV. & 2 M \\
+\hline
+7. & Discuss the different types of noise that can affect images and explain the methods for noise removal. & 2 M \\
+\hline
+8. &  Compare and contrast Canny, Gaussian, and Gabor edge detection methods. & 2 M \\
+\hline
+9. & Explain the Horn-Schunk optical flow formulation and its use in motion estimation. & 2 M \\
+\hline
+10. & What is the role of the Euler-Lagrange formulation in solving motion estimation problems? & 2 M \\
+\hline
+\end{tabularx}
+
+\vspace{0.2cm} % Slightly reduced vertical space
+
+% Section-B Header
+\begin{center}
+\textbf{SECTION-B (50M)} \\
+\textbf{Answer all FIVE questions. Each question carries TEN Marks.} \\
+\vspace{-0.2cm}
+\noindent\rule{\textwidth}{0.4pt} % Horizontal line under SECTION-B header
+\end{center}
+\vspace{-0.3cm} % Further reduced vertical space below Section-B header
+
+% Section-B Questions - Part 1 (First Page)
+\begin{tabularx}{\textwidth}{|c|X|r|}
+\hline
+\textbf{No.} & \textbf{Question} & \textbf{Marks} \\
+\hline
+11. & (A) Describe the concept of structure recovery from motion using the Kanade method. 
+\begin{center} \textbf{or} \end{center}
+(B) Discuss the application of texture edges and curvature in image processing tasks. & 10 M \\
+\hline
+12. & (A) Explain the concept of image segmentation and discuss the role of the watershed algorithm.
+\begin{center} \textbf{or} \end{center}
+(B) Describe the process of change detection and its applications in computer vision. & 10 M \\
+\hline
+\end{tabularx}
+
+\vspace{0.2cm} % Reduced vertical space
+
+% Section-B Questions - Part 2 (Second Page)
+\begin{tabularx}{\textwidth}{|c|X|r|}
+\hline
+\textbf{No.} & \textbf{Question} & \textbf{Marks} \\
+\hline
+13. & (A) Explain the concept of background subtraction and its use in image segmentation.
+\begin{center} \textbf{or} \end{center}
+(B) Discuss the application of Gaussian mixture models in image segmentation. & 10 M \\
+\hline
+14. & (A) Describe the challenges and approaches to performing color-based image segmentation.
+\begin{center} \textbf{or} \end{center}
+(B) Discuss the use of shape clustering techniques in image segmentation. & 10 M \\
+\hline
+15. & (A) Describe the applications of computer vision in real-world scenarios, such as autonomous vehicles and medical imaging. 
+\begin{center} \textbf{or} \end{center}
+(B) Discuss the ethical considerations and potential biases associated with computer vision systems. & 10 M \\
+\hline
+\end{tabularx}
+
+\end{document}
+```
+
+**Explanation of Changes:**
+
+1.  **Course Name:**  Replaced "Cloud Computing" with "COMPUTER VISION & IMAGE PROCESSING." 
+2.  **Course Code:**  Replaced "TYUIA8" with "A30541". 
+3.  **College Name:**  Replaced "CMR INSTITUTE OF TECHNOLOGY" with "COLLEGE NAME".  You need to replace this placeholder with the actual name of the college.
+4.  **Date:**  Replaced "2024-09-22 FN" with "AN/FN" for the required format. 
+
+**Generated Questions:**
+
+The questions generated cover the key topics from the syllabus for Computer Vision & Image Processing. The questions are designed to test students' understanding of:
+
+* **Image Formation & Coordinate Transformations:**  Camera matrix, pin-hole model, human vision.
+* **Image Processing & Motion Estimation:** Noise removal, blurring, edge detection, optical flow, structure recovery.
+* **Segmentation:** Figure-ground, watershed, change detection, background subtraction, texture segmentation, Gaussian mixture models, color/motion-based segmentation, background modeling, shape clustering.
+
+**Important Notes:**
+
+* **Replace Placeholders:**  Remember to replace the placeholders with the actual details of the college, course name, code, semester, and date.
+* **Modify Questions:** You can modify the questions, add more questions, or remove any questions that are not relevant to your specific syllabus.
+* **Use the Template:** The LaTeX template provides a professional and organized structure for your question paper. You can customize the template to suit your needs. 
