@@ -127,3 +127,6 @@ app.post('/query', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
+app.use("/",(req,res)=>{
+    res.send("Server is running");
+});
