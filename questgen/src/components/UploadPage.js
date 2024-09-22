@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './upload.css'; // Import the specific CSS file for UploadPage
-
+const backendurl=process.env.REACT_APP_BACKEND_BASE_URL;
 const UploadPage = () => {
     const [file, setFile] = useState(null);
     const [uploadLoading, setUploadLoading] = useState(false);
@@ -38,9 +38,9 @@ const UploadPage = () => {
         formData.append('courseCode', courseCode);
         formData.append('semester', semester);
         formData.append('collegeName', collegeName);
-
+        
         try {
-            const response = await axios.post('http://localhost:3322/upload', formData);
+            const response = await axios.post(`${backendurl}/upload`, formData);
             setExtractedData(response.data.extractedData);
             setQuestions(response.data.questions);
         } catch (error) {
@@ -56,7 +56,7 @@ const UploadPage = () => {
         setQueryLoading(true);
 
         try {
-            const response = await axios.post('http://localhost:3322/query', {
+            const response = await axios.post(`${backendurl}/upload/query`, {
                 rawText,
                 queryText,
                 examType,

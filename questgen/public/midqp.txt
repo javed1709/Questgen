@@ -18,16 +18,16 @@
 % Header
 \noindent
 \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r@{}}
-\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: DFGT7} \\
+\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: FDES3} \\
 \end{tabular*}
 
 % Title and Details
 \begin{center}
-\textbf{CMR INSTITUTE OF TECHNOLOGY} \\
+\textbf{CMR COLLEGE OF ENGINEERING AND TECHNOLOGY} \\
 \textbf{(UGC AUTONOMOUS)} \\
 \textbf{B.Tech VII Semester Mid Examinations  2024} \\
 \textbf{(Honors Programme in CSE)} \\
-\textbf{Course Name: BMFA} \\
+\textbf{Course Name: Cloud Computing} \\
 \textbf{Date: 2024-09-22 FN} \hfill \textbf{Time: 1.5 hours} \hfill \textbf{Max.Marks: 25M} \\
 \vspace{-0.3cm}
 \noindent\rule{\textwidth}{0.4pt} % Horizontal line
@@ -52,15 +52,15 @@
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-1. & Write about Herzberg’s two factor theory & 1 M \\
+1. & Briefly explain the concept of High-Performance Computing. & 1 M \\
 \hline
-2. & Explain any two leadership styles & 1 M \\
+2. & Differentiate between Parallel Computing and Distributed Computing. & 1 M \\
 \hline
-3. & Write the objectives of HRM & 1 M \\
+3. & What is the main advantage of Grid Computing over Cluster Computing? & 1 M \\
 \hline
-4. & List out the recent trends in marketing & 1 M \\
+4. & List any two key characteristics that differentiate Cloud Computing from traditional computing. & 1 M \\
 \hline
-5. & Write the difference between Inflation and deflation. & 1 M \\
+5. &  Describe the role of optical computing in the field of high-speed data processing.  & 1 M \\
 \hline
 \end{tabularx}
 
@@ -79,17 +79,17 @@
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-6. & (A) Define Management. Discuss about Nature and Scope of Management.
+6. & (A) Explain the concept of "Infrastructure as a Service" (IaaS) with a suitable example.
 \begin{center} \textbf{or} \end{center}
-(B) Explain the functions of Management in detail & 5 M \\
+(B) Discuss the five essential characteristics of Cloud Computing. & 5 M \\
 \hline
-7. & (A) Write a detailed note on Marketing Mix.
+7. & (A) Describe the three-tier architecture of Cloud Computing.
 \begin{center} \textbf{or} \end{center} 
-(B) Describe the concept of Plant Layout and its types. & 5 M \\
+(B) Explain the concept of "Software as a Service" (SaaS) and provide examples of SaaS applications. & 5 M \\
 \hline
-8. & (A) Discuss the difference between Micro and Macro Economics.
+8. & (A) Discuss the various cloud deployment models (public, private, hybrid, and community) with their advantages and disadvantages.
 \begin{center} \textbf{or} \end{center} 
-(B) Explain the stages of Product Life Cycle in detail. & 5 M \\
+(B)  Elaborate on the challenges associated with managing cloud infrastructure. & 5 M \\
 \hline
 \end{tabularx}
 
