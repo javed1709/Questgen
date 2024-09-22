@@ -187,10 +187,3 @@ app.listen(port, () => {
   console.log(`Server running at https://questgen.up.railway.app/`);
 });
 
-app.use("/", (req, res) => {
-  res.send("Server is running");
-});
-
-app.use("/", (req, res) => {
-  res.send("Server is running");
-});
