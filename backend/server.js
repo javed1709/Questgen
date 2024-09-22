@@ -127,13 +127,12 @@ app.post('/query', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
-<<<<<<< HEAD
-app.use("/",(req,res)=>{
-    res.send("Server is running");
-});
-=======
 
 app.use("/",(req,res)=>{
     res.send("Server is running");
 });
->>>>>>> 3e8b8cab318327ace1d0362b271c63c68c20140d
+
+
+app.use("/",(req,res)=>{
+    res.send("Server is running");
+});
