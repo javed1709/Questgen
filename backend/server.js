@@ -184,7 +184,7 @@ app.post("/query", async (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server running at http://questgen.up.railway.app/`);
+  console.log(`Server running at https://questgen.up.railway.app/`);
 });
 
 app.use("/", (req, res) => {

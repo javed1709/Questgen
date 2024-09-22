@@ -40,7 +40,7 @@ const UploadPage = () => {
         formData.append('collegeName', collegeName);
 
         try {
-            const response = await axios.post('http://questgen.up.railway.app/upload', formData);
+            const response = await axios.post('https://questgen.up.railway.app/upload', formData);
             setExtractedData(response.data.extractedData);
             setQuestions(response.data.questions);
         } catch (error) {
@@ -56,7 +56,7 @@ const UploadPage = () => {
         setQueryLoading(true);
 
         try {
-            const response = await axios.post('http://questgen.up.railway.app/query', {
+            const response = await axios.post('https://questgen.up.railway.app/query', {
                 rawText,
                 queryText,
                 examType,
