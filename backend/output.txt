@@ -10,29 +10,29 @@
 \usepackage{amsmath}
 \usepackage{tabularx} % Tabularx for flexible columns
 
-% Increase vertical space in table cells
-\renewcommand{\arraystretch}{1.5} % Adjust this value to increase/decrease space
+% Reduce vertical space in table cells
+\renewcommand{\arraystretch}{1.3} % Adjust this value to reduce/increase space
 
 \begin{document}
 
 % Header
 \noindent
 \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r@{}}
-\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: FDES3} \\
+\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: TYUIA8} \\
 \end{tabular*}
 
 % Title and Details
 \begin{center}
-\textbf{CMR COLLEGE OF ENGINEERING AND TECHNOLOGY} \\
+\textbf{CMR INSTITUTE OF TECHNOLOGY} \\
 \textbf{(UGC AUTONOMOUS)} \\
-\textbf{B.Tech VII Semester Mid Examinations  2024} \\
+\textbf{B.Tech VII Semester Regular Examinations May-2023} \\
 \textbf{(Honors Programme in CSE)} \\
 \textbf{Course Name: Cloud Computing} \\
-\textbf{Date: 2024-09-22 FN} \hfill \textbf{Time: 1.5 hours} \hfill \textbf{Max.Marks: 25M} \\
+\textbf{Date: 2024-09-22 FN} \hfill \textbf{Time: 3 hours} \hfill \textbf{Max. Marks: 70M} \\
 \vspace{-0.3cm}
 \noindent\rule{\textwidth}{0.4pt} % Horizontal line
 \end{center}
-\vspace{-0.8cm}
+\vspace{-0.8cm} % Adjusted vertical space
 
 % Note
 \noindent
@@ -41,55 +41,83 @@
 \end{center} 
 \vspace{-0.8cm}
 
-% PART-A Header
+% Section-A Header
 \begin{center}
-\textbf{PART-A (5M)} \\
-\textbf{Answer all FIVE questions. Each question carries ONE mark.} \\
+\textbf{SECTION-A (20M)} \\
+\textbf{Answer ALL TEN questions. Each question carries TWO marks.} \\
 \end{center}
 
-% PART-A Questions
+% Section-A Questions
 \begin{tabularx}{\textwidth}{|c|X|r|}
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-1. & Briefly explain the concept of High-Performance Computing. & 1 M \\
+1. & Explain the concept of High-Performance Computing and its applications. & 2 M \\
 \hline
-2. & Differentiate between Parallel Computing and Distributed Computing. & 1 M \\
+2. & What are the key differences between parallel computing and distributed computing? & 2 M \\
 \hline
-3. & What is the main advantage of Grid Computing over Cluster Computing? & 1 M \\
+3. & Describe the architecture of a cluster computing system. & 2 M \\
 \hline
-4. & List any two key characteristics that differentiate Cloud Computing from traditional computing. & 1 M \\
+4. & How does grid computing differ from cloud computing? & 2 M \\
 \hline
-5. &  Describe the role of optical computing in the field of high-speed data processing.  & 1 M \\
+5. & List the advantages and disadvantages of using cloud computing. & 2 M \\
+\hline
+6. & Discuss the potential of bio-computing for solving complex problems. & 2 M \\
+\hline
+7. & Explain the challenges of mobile computing in terms of resource constraints. & 2 M \\
+\hline
+8. & What is quantum computing, and what makes it different from classical computing? & 2 M \\
+\hline
+9. & Describe the principles behind optical computing. & 2 M \\
+\hline
+10. & What are the potential applications of nano-computing? & 2 M \\
 \hline
 \end{tabularx}
 
-\vspace{0.5cm}
+\vspace{0.2cm} % Slightly reduced vertical space
 
-% PART-B Header
+% Section-B Header
 \begin{center}
-\textbf{PART-B (20M)} \\
-\textbf{Answer all THREE questions. Each question carries FIVE Marks.} \\
-\vspace{-0.3cm}
-\noindent\rule{\textwidth}{0.4pt} % Horizontal line under PART-B header
+\textbf{SECTION-B (50M)} \\
+\textbf{Answer all FIVE questions. Each question carries TEN Marks.} \\
+\vspace{-0.2cm}
+\noindent\rule{\textwidth}{0.4pt} % Horizontal line under SECTION-B header
 \end{center}
+\vspace{-0.3cm} % Further reduced vertical space below Section-B header
 
-% PART-B Questions
+% Section-B Questions - Part 1 (First Page)
 \begin{tabularx}{\textwidth}{|c|X|r|}
 \hline
 \textbf{No.} & \textbf{Question} & \textbf{Marks} \\
 \hline
-6. & (A) Explain the concept of "Infrastructure as a Service" (IaaS) with a suitable example.
+11. & (A) Explain the motivation for cloud computing and the need for a service-oriented architecture.
 \begin{center} \textbf{or} \end{center}
-(B) Discuss the five essential characteristics of Cloud Computing. & 5 M \\
+(B) Discuss the concept of "Software as a Service" (SaaS) and its characteristics. & 10 M \\
 \hline
-7. & (A) Describe the three-tier architecture of Cloud Computing.
-\begin{center} \textbf{or} \end{center} 
-(B) Explain the concept of "Software as a Service" (SaaS) and provide examples of SaaS applications. & 5 M \\
+12. & (A) Define "Infrastructure as a Service" (IaaS) and explain its key features.
+\begin{center} \textbf{or} \end{center}
+(B) What are the principles of cloud computing, and how do they contribute to its success? & 10 M \\
 \hline
-8. & (A) Discuss the various cloud deployment models (public, private, hybrid, and community) with their advantages and disadvantages.
-\begin{center} \textbf{or} \end{center} 
-(B)  Elaborate on the challenges associated with managing cloud infrastructure. & 5 M \\
+\end{tabularx}
+
+\vspace{0.2cm} % Reduced vertical space
+
+% Section-B Questions - Part 2 (Second Page)
+\begin{tabularx}{\textwidth}{|c|X|r|}
+\hline
+\textbf{No.} & \textbf{Question} & \textbf{Marks} \\
+\hline
+13. & (A) Describe the five essential characteristics of cloud computing and their significance. 
+\begin{center} \textbf{or} \end{center}
+(B) Explain the different cloud deployment models (public, private, hybrid, community) and their use cases. & 10 M \\
+\hline
+14. & (A) Outline the layered architecture of a typical cloud computing system.
+\begin{center} \textbf{or} \end{center}
+(B) Discuss the role of network connectivity in cloud computing and its impact on performance. & 10 M \\
+\hline
+15. & (A) Explain how various applications can be deployed and run on the cloud.
+\begin{center} \textbf{or} \end{center}
+(B) Describe the challenges and strategies for managing cloud infrastructure and resources. & 10 M \\
 \hline
 \end{tabularx}
 

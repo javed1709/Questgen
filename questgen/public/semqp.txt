@@ -18,12 +18,12 @@
 % Header
 \noindent
 \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r@{}}
-\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: UBDO9} \\
+\textbf{H.T No:} \uline{\hspace{1.6in}} & \textbf{R18} & \textbf{Course Code: TYUIA8} \\
 \end{tabular*}
 
 % Title and Details
 \begin{center}
-\textbf{CMR COLLEGE OF ENGINEERING \& TECHNOLOGY} \\
+\textbf{CMR INSTITUTE OF TECHNOLOGY} \\
 \textbf{(UGC AUTONOMOUS)} \\
 \textbf{B.Tech VII Semester Regular Examinations May-2023} \\
 \textbf{(Honors Programme in CSE)} \\

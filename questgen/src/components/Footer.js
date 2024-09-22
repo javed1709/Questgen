@@ -7,7 +7,6 @@ const Footer = () => {
             <p>&copy; 2024 Question Paper Generator. All Rights Reserved.</p>
             <div className="social-links">
                 <a href='https://github.com/javed1709/Miniproject' rel='sourcecode'>Github</a>
-                <h2>Build-By:Javed</h2>
             </div>
         </footer>
     );
