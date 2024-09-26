@@ -26,7 +26,7 @@
 \textbf{CMR COLLEGE OF ENGINEERING \& TECHNOLOGY} \\
 \textbf{(UGC AUTONOMOUS)} \\
 \textbf{B.Tech VI Semester Regular Examinations May-2023} \\
-\textbf{(Honors Programme in CSE)} \\
+\textbf{(Common for CSE)} \\
 \textbf{Course Name: RESEARCH METHODOLOGIES} \\
 \textbf{Date: 19.05.2023 AN} \hfill \textbf{Time: 3 hours} \hfill \textbf{Max. Marks: 70M} \\
 \vspace{-0.3cm}
