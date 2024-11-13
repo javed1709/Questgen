@@ -1,0 +1,1 @@
+Questgen is a Gemini AI-powered web app that automates question paper creation. Users can upload files, input text, and select templates to generate syllabus-aligned questions. It supports LaTeX-based PDF output, customizable exam parameters, and predefined templates, streamlining the process and saving time for educators.
